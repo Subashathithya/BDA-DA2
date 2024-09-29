@@ -1,4 +1,4 @@
-# BDA-DA2
+SUBASH ATHITHYA - 22MIS1078
 ABSTRACT:
 
 In the rapidly evolving landscape of e-commerce, understanding customer behavior is crucial for enhancing user experience and optimizing marketing strategies. This study employs Self-Organizing Maps (SOM), a type of unsupervised neural network, to perform customer segmentation based on purchasing behavior. Using a dataset of e-commerce transactions, we first preprocess the data by filtering relevant features such as unique products purchased and unique categories engaged with by customers.
