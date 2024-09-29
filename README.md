@@ -22,4 +22,36 @@ You can download the dataset here​(https://www.kaggle.com/datasets/mkechinov/e
 
 TO HOW TO EXECUTE THE CODE:
 
-To execute the implementation of customer segmentation using Self-Organizing Maps (SOM) in an e-commerce context, specific software and hardware requirements must be met. On the software side, utilizing platforms like Google Colab or Jupyter Notebook is recommended for ease of access to necessary libraries. Ensure you have a Python 3.x environment, and install essential libraries, including Pandas for data manipulation, NumPy for numerical operations, Matplotlib for data visualization, Minisom for SOM implementation, and scikit-learn and Keras for data preprocessing and building neural networks. For hardware, a dual-core CPU with at least 8 GB of RAM is the minimum requirement; however, a quad-core processor and 16 GB of RAM are ideal for handling larger datasets effectively. Additionally, while not essential, having a GPU can significantly enhance the speed of training complex neural networks, and Google Colab offers free access to GPU resources. Meeting these software and hardware specifications will facilitate the successful execution of your customer segmentation project, enabling you to derive valuable insights into customer behavior and optimize marketing strategies within the e-commerce sector.
+To successfully implement customer segmentation using **Self-Organizing Maps (SOM)** in an e-commerce context, there are specific software and hardware requirements that must be addressed for an efficient workflow.
+
+### **Software Requirements:**
+
+1. **Development Environment**:
+   - **Google Colab** or **Jupyter Notebook** are highly recommended platforms. These environments offer easy access to essential libraries, particularly in Python. Google Colab also has the advantage of free GPU access, making it easier to train neural networks more quickly.
+
+2. **Python Version**:
+   - A **Python 3.x** environment is necessary to ensure compatibility with modern libraries used for data manipulation, machine learning, and visualization.
+
+3. **Libraries**:
+   - **Pandas**: Used for data manipulation, including loading datasets and performing data cleaning and preprocessing.
+   - **NumPy**: Essential for numerical operations, matrix manipulations, and efficient handling of large datasets.
+   - **Matplotlib**: Useful for data visualization, including visualizing customer segments and SOM outputs.
+   - **Minisom**: A specialized library designed for implementing and training SOMs in Python.
+   - **Scikit-learn**: Required for data preprocessing, normalization, and splitting datasets for training and validation.
+   - **Keras**: If you plan to extend the segmentation with deep learning techniques, Keras will help you build neural networks to enhance the analysis.
+
+### **Hardware Requirements:**
+
+1. **Processor**:
+   - A **dual-core CPU with at least 8 GB of RAM** is the minimum requirement to run small to medium-sized datasets effectively. This configuration is sufficient for initial model building and testing.
+   - For handling **larger datasets** more effectively (e.g., e-commerce behavior data with millions of rows), a **quad-core processor** with at least **16 GB of RAM** is recommended. This setup will ensure faster data processing and model training.
+
+2. **GPU**:
+   - While a **GPU** is not mandatory, having one significantly boosts the performance when training more complex neural networks or working with deep learning extensions of SOM. A GPU can reduce training time drastically, making it possible to scale up with larger datasets.
+   - **Google Colab** offers free access to GPUs, which is a convenient and cost-effective option for faster model training.
+
+### **Execution Environment**:
+Meeting these software and hardware specifications is crucial for carrying out a successful customer segmentation project. By ensuring you have access to the necessary tools and computational power, you will be able to effectively leverage the capabilities of SOMs for clustering large datasets of e-commerce user behavior.
+
+Using SOMs, you can segment customers based on factors such as **purchase history**, **browsing behavior**, and **cart interactions**. This segmentation is invaluable in optimizing marketing strategies, improving customer retention, and offering personalized recommendations to different customer segments.
+
