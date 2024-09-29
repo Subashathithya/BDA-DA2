@@ -11,8 +11,11 @@ Furthermore, we build a neural network to classify new customers into these segm
 The E-commerce Behavior Data from a Multi-Category Store dataset contains detailed information on user behavior across various product categories in an e-commerce platform. The dataset tracks key user actions such as:
 
 Product Views: Monitoring when users view products.
+
 Cart Additions: Tracking items that users add to their shopping carts.
+
 Purchases: Recording transactions when users purchase products.
+
 This dataset is ideal for conducting customer segmentation based on behavioral patterns like browsing, purchasing frequency, and product preferences. It is particularly useful for tasks such as customer journey analysis, building recommendation systems, and marketing strategy optimization.
 
 You can download the dataset here​(https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store).
